@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Product Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <form style="padding-left: 1000px;padding-top: 100px;">
+        <label for="foodProduct" style="font-size: x-large;">Food Product:</label>
+        <input type="text" id="foodProduct" name="foodProduct" required style="width: 500px;">
+
+        <label for="mainIngredient" style="font-size: x-large;">Main Ingredient:</label>
+        <input type="text" id="mainIngredient" name="mainIngredient" required style="width: 500px;">
+
+        <label for="sweetener" style="font-size: x-large;">Sweetener:</label>
+        <input type="text" id="sweetener" name="sweetener" style="width: 500px;">
+
+        <label for="fatOil" style="font-size: x-large;">Fat/Oil:</label>
+        <input type="text" id="fatOil" name="fatOil" style="width: 500px;">
+
+        <label for="seasoning" style="font-size: x-large;">Seasoning:</label>
+        <input type="text" id="seasoning" name="seasoning" style="width: 500px;">
+
+        <label for="allergens" style="font-size: x-large;">Allergens:</label>
+        <input type="text" id="allergens" name="allergens" required style="width: 500px;">
+
+        <label for="prediction" style="font-size: x-large;">Prediction:</label>
+        <input type="text" id="prediction" name="prediction" required style="width: 500px;">
+        <br>
+
+        <input type="submit" value="SUBMIT" style="width: 500px;" style="font-size: 100px;">
+    </form>
+
+</body>
+</html>
